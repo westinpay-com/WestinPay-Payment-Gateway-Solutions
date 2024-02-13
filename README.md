@@ -2,8 +2,7 @@
 <a href="https://westinpay.com/testpayment.html" target="_blank">
     <img width="543" height="55" src="https://westinpay.com/img.png" alt="WestinPay Logo">
 </a>
-```html
-<pre><code class="language-html">
+<pre><code class="language-css">
 <style>
     .payment-button {
         background-color: #4CAF50; /* Green color */
@@ -20,8 +19,8 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow effect */
     }
 </style>
-
-<!-- Payment form -->
+</code></pre>
+<pre><code class="language-html">
 <form action="https://westinpay.com/payment/initiate" method="post">
     <input type="hidden" name="identifier" value="Test Order Payment">
     <input type="hidden" name="currency" value="USD">
