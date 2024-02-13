@@ -64,7 +64,7 @@ Download the WestinPay Transfer app for your device:
 | New Zealand dollar   | NZ$             | NZD           |
 | Russian ruble        | ₽               | RUB           |
 | Romanian leu         | L               | RON           |
-| Bulgarian lev        | BGN             | BGN           |
+| Bulgarian lev        | BGN             | BGN           | 
 | Swedish krona        | kr              | SEK           |
 | Turkish lira         | ₺               | TRY           |
 | Brazilian real       | R$              | BRL           |
