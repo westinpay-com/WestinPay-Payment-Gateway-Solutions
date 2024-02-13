@@ -7,6 +7,10 @@
 
 WestinPay Transfer is an excellent solution for payment gateway integration. WestinPay enables your customers to make secure and fast payments, ensuring smooth merchant transactions.
 
+## WestinPay Transfer PHP Entegrasyon
+
+For PHP integration with WestinPay Transfer, please visit the [WestinPay Transfer PHP Integration Repository](https://github.com/westinpay-com/API).
+
 ## Features
 
 - Secure and fast payments
@@ -75,5 +79,3 @@ Download the WestinPay Transfer app for your device:
 | Monero XMR           | XMR             | XMR           |
 
 WestinPay streamlines your payments with its user-friendly interface and secure infrastructure, helping you optimize your payment processes. Choose WestinPay today and streamline your payment transactions.
-
-
