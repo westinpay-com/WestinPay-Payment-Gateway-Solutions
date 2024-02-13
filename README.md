@@ -21,22 +21,23 @@
 </style>
 </code></pre>
 <pre><code class="language-html">
-<form action="https://westinpay.com/payment/initiate" method="post">
-    <input type="hidden" name="identifier" value="Test Order Payment">
-    <input type="hidden" name="currency" value="USD">
-    <input type="hidden" name="amount" value="1.00">
-    <input type="hidden" name="details" value="Pay with WestinPay">
-    <input type="hidden" name="ipn_url" value="http://example.com/ipn_url.php">
-    <input type="hidden" name="cancel_url" value="http://example.com/cancel_url.php">
-    <input type="hidden" name="success_url" value="http://example.com/success_url.php">
-    <input type="hidden" name="public_key" value="your-westinpay-public-key">
-    <input type="hidden" name="site_logo" value="https://westinpay.com/assets/images/logoIcon/logo.png">
-    <input type="hidden" name="checkout_theme" value="dark">
-    <input type="hidden" name="customer_name" value="John Doe">
-    <input type="hidden" name="customer_email" value="john@mail.com">
-    <input type="submit" value="Test Payment Button" class="payment-button">
-</form>
+&lt;form action="https://westinpay.com/payment/initiate" method="post"&gt;
+    &lt;input type="hidden" name="identifier" value="Test Order Payment"&gt;
+    &lt;input type="hidden" name="currency" value="USD"&gt;
+    &lt;input type="hidden" name="amount" value="1.00"&gt;
+    &lt;input type="hidden" name="details" value="Pay with WestinPay"&gt;
+    &lt;input type="hidden" name="ipn_url" value="http://example.com/ipn_url.php"&gt;
+    &lt;input type="hidden" name="cancel_url" value="http://example.com/cancel_url.php"&gt;
+    &lt;input type="hidden" name="success_url" value="http://example.com/success_url.php"&gt;
+    &lt;input type="hidden" name="public_key" value="your-westinpay-public-key"&gt;
+    &lt;input type="hidden" name="site_logo" value="https://westinpay.com/assets/images/logoIcon/logo.png"&gt;
+    &lt;input type="hidden" name="checkout_theme" value="dark"&gt;
+    &lt;input type="hidden" name="customer_name" value="John Doe"&gt;
+    &lt;input type="hidden" name="customer_email" value="john@mail.com"&gt;
+    &lt;input type="submit" value="Test Payment Button" class="payment-button"&gt;
+&lt;/form&gt;
 </code></pre>
+
 
  
 # WestinPay Transfer
