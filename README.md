@@ -2,7 +2,41 @@
 <a href="https://westinpay.com/testpayment.html" target="_blank">
     <img width="543" height="55" src="https://westinpay.com/img.png" alt="WestinPay Logo">
 </a>
+```html
+<style>
+    .payment-button {
+        background-color: #4CAF50; /* Green color */
+        border: none;
+        color: white;
+        padding: 20px 40px; /* Wider and longer */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    }
+</style>
 
+<!-- Payment form -->
+<form action="https://westinpay.com/payment/initiate" method="post">
+    <input type="hidden" name="identifier" value="Test Order Payment">
+    <input type="hidden" name="currency" value="USD">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="details" value="Pay with WestinPay">
+    <input type="hidden" name="ipn_url" value="http://example.com/ipn_url.php">
+    <input type="hidden" name="cancel_url" value="http://example.com/cancel_url.php">
+    <input type="hidden" name="success_url" value="http://example.com/success_url.php">
+    <input type="hidden" name="public_key" value="your-westinpay-public-key">
+    <input type="hidden" name="site_logo" value="https://westinpay.com/assets/images/logoIcon/logo.png">
+    <input type="hidden" name="checkout_theme" value="dark">
+    <input type="hidden" name="customer_name" value="John Doe">
+    <input type="hidden" name="customer_email" value="john@mail.com">
+    <input type="submit" value="Test Payment Button" class="payment-button">
+</form>
+ 
 # WestinPay Transfer
 
 WestinPay Transfer is an excellent solution for payment gateway integration. WestinPay enables your customers to make secure and fast payments, ensuring smooth merchant transactions.
